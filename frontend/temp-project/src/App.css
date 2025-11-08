@@ -1,0 +1,9 @@
+.app { max-width: 720px; margin: 40px auto; font-family: Arial, sans-serif; }
+.chat-window { min-height: 300px; border: 1px solid #ddd; padding: 12px; overflow:auto; background:#fafafa; }
+.message { margin-bottom: 10px; padding:6px; border-radius:6px; }
+.message.You { background:#e6f7ff; text-align:left; }
+.message.Bot { background:#fff3e0; text-align:left; }
+.message.System { background:#ffe6e6; color:#900; }
+.input-form { display:flex; gap:8px; margin-top:12px; }
+.input-form input { flex:1; padding:8px; font-size:16px; }
+.input-form button { padding:8px 12px; }
